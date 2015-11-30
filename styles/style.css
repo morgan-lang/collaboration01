@@ -16,7 +16,7 @@ nav {
   clear: both;
   list-style:none;
   text-align: center;
-    background-color: white;
+  background-color: white;
   font-size: 2rem;
   font-weight: 600;
   line-height: 2.5rem;
@@ -43,7 +43,6 @@ nav a {
   display:inline-block;
   padding:.5rem;
 } 
-/*Major components*/
 
 select {
   font-size: 2rem;
@@ -136,9 +135,9 @@ footer {
   font-family: 'Roboto', sans-serif;
   clear: both;
   color: #D6E8B8;
-   left:.5rem;
-   bottom:.5rem;
-   width:100%;
+  left:.5rem;
+  bottom:.5rem;
+  width:100%;
   background-color: #523E33;
   border-radius: 2rem;
   text-indent: 3rem;
@@ -162,6 +161,29 @@ a:hover {
   color: #6B0000;
   text-decoration: underline;
   font-weight: 600;
+}
+
+.btn {
+  background: #523E33;
+  background-image: -webkit-linear-gradient(top, #523E33, #94877E);
+  background-image: -moz-linear-gradient(top, #523E33, #94877E);
+  background-image: -ms-linear-gradient(top, #523E33, #94877E);
+  background-image: -o-linear-gradient(top, #523E33, #94877E);
+  background-image: linear-gradient(to bottom, #523E33, #94877E);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Roboto', sans-serif;
+  color: #94C840;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 10;
+}
+
+.btn:hover {
+  background: #D6E8B8;
+  text-decoration: none;
 }
 
 
