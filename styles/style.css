@@ -109,6 +109,10 @@ header {
   opacity: .9;
 }
 
+iframe {
+  border-radius: 5%;
+}
+
 article {
   width:50%;
   background-color:#FFFFFF;
