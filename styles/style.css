@@ -139,6 +139,10 @@ iframe {
   border-radius: 5%;
 }
 
+video {
+  padding: 1rem;
+}
+
 article {
   width:50%;
   background-color:#FFFFFF;
