@@ -76,6 +76,7 @@ h2 {
   color: #523E33;
   padding: .5rem .5rem .5rem 1rem;
   border-radius: 2rem;
+  text-align: center;
 }
 
 h3 {
@@ -87,6 +88,7 @@ h3 {
   color: #523E33;
   padding: .5rem .5rem .5rem 1rem;
   border-radius: 2rem;
+  text-align: center;
 }
 h4 {
   font-family: 'Roboto', sans-serif;
@@ -139,7 +141,7 @@ iframe {
 }
 
 video {
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 6rem;
 }
 
 article {
@@ -204,7 +206,21 @@ a:hover {
   text-decoration: none;
 }
 
-.services-footer {
+.services-list {
+  font-family: 'Roboto', sans-serif;
+  float: right;
+  background-color: #D7E7B8;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  list-style: none;
+  color: #523E33;
+  padding: .5rem 3rem .5rem 1rem;
+  border-radius: 2rem;
+  width: 10rem;
+}
+
+.footer {
   background-color: #523E33;
   border-radius: 2rem;
   color: #D6E8B8;
@@ -216,14 +232,15 @@ a:hover {
   position: bottom;
 }
 
-.services-footer p {
+.footer p {
   color: #D6E8B8;
   text-align: center;
 }
 
-.services-footer a {
+.footer a {
   color: #D6E8B8;
 }
+
 
 /*  GRID OF THREE   ============================================================================= */
 
@@ -246,3 +263,4 @@ a:hover {
 img {
   border-radius: 5%;
 }
+>>>>>>> master
